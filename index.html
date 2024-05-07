@@ -6,20 +6,28 @@
     body, p, .cambiar-fuente {
       font-family: "Times New Roman", serif;
     }
+        .texto-con-gradiente {
+            text-align: center;
+            font-size: 20px;
+            background: linear-gradient(45deg, #000, #000, #a09e9e, #000, #a09e9e);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
   </style>
 </head>
-<body style="background: radial-gradient(circle, #ffd7a7, #ffd3de);">
+<body style="background: radial-gradient(circle, #cea7e0, #ffd3de, #fff);">
     <header>
         <center>
-            <h1>Proyecto de Desarrollo de Software para Plataformas Móviles :)</h1>
+            <h2>Proyecto de Desarrollo de Software para Plataformas Móviles :)</h2>
         </center>
         <center>
-            <font size="5"><i>Trabajos de clase.</i></font>
+            <font size="4">Trabajos de clase.</font>
         </center>
         <br>
     </header>
     <nav>
-        <table style="width:50%; margin: 0 auto;" border="1" cellpadding="6" cellspacing="0" bgcolor="#F6E6FF">
+        <table style="width:50%; margin: 0 auto;" border="1" cellpadding="6" cellspacing="0" bgcolor="#ffd3de">
             <tr>
                 <th>trabajo</th>
                 <th>fecha</th>
@@ -51,8 +59,7 @@
         </table>
         <br>
     </nav>
-    <font size="4" color="#A08F9B">
-        <center><i><u>Mañas Candela. 7mo 2da.</u></i></center>
-    </font>
+    <p class="texto-con-gradiente">Mañas Candela. 7mo 2da.</p>
+
 </body>
 </html>
