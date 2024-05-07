@@ -1,0 +1,23 @@
+h1.titulo{
+    text-align: center;
+}
+#contenedor p{
+    font-family: serif;
+}
+#contenedor #primer-parrafo{
+    background-color: #cee;
+}
+#primer-parrafo em{
+    color: #933;
+}
+#contenedor a{
+    outline: 1px solid #333
+}
+.fuente.parrafo{
+    opacity: 100% !important;
+    color: #000 !important;
+}
+#contenedor .complicado {
+    font-weight: bold;
+    color: #c62 !important;
+}
